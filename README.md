@@ -1,2 +1,2 @@
 # btfind
-Bluetooth Find provides a mechanism with which you can locate and track discoverable Bluetooth devices
+Bluetooth Find allows you to discover and locate Bluetooth devices using signal strength analysis.
