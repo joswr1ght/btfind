@@ -21,7 +21,7 @@ import select
 import datetime
 import time
 sys.path.append("/usr/lib/python2.6/dist-packages/bluetooth")
-import _bluetooth as bluez
+import bluetooth._bluetooth as bluez
 
 import speedo
 import siggraph

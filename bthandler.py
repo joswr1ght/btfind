@@ -1,6 +1,6 @@
 import sys
 import struct
-import _bluetooth as bluez
+import bluetooth._bluetooth as bluez
 import ouilookup
 
 def bt_print_device_manuf(oui):
