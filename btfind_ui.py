@@ -159,7 +159,7 @@ class BTFindUI:
 
         # Put it in a scrolling pane
         scrollwin = gtk.ScrolledWindow()
-        scrollwin.set_policy(gtk.POLICY_NEVER, gtk.POLICY_ALWAYS)
+        scrollwin.set_policy(gtk.POLICY_AUTOMATIC, gtk.POLICY_ALWAYS)
         scrollwin.add_with_viewport(self.devlistview)
         
         scrollwin.set_size_request(-1, 250)
